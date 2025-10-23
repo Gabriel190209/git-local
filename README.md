@@ -206,7 +206,48 @@ git switch main
 git merge dev
 git log --oneline --graph
 ```
+---
+## 🧑‍🤝‍🧑 17. Clonar um repositório
+> Clonar um repositório remoto do GitHub para sua máquina
+```bash
+git clone https://github.com/usuario/repositorio.git
+```
+---
+## ➕18. Preparar alterações
+> Adicionar arquivos novos ou modificados
+```
+git add .
+```
+#### ou
+```
+git add nome_arquivo
+```
+---
+## 🛟 19. Salvar alterações
+> Registra oficialmente as alterações no histórico do projeto.
+```
+git commit -m "Mensagem explicando o que mudou"
+```
+---
+## 📨 20. Enviar
+> Enviar as alterações locais para o repositório no GitHub
+```
+git push origin main #Fazer a primeira vez
+```
+#### Depois
+```
+git push
+```
+---
+## 🤝 Ferramenta de auxilio: GitFluence AI
+### O GitFluence é uma ferramenta online que ajuda a gerar comandos Git a partir de descrições em linguagem natural.
 
+#### Por exemplo, você pode digitar:
+```
+“Criar um novo branch e mudar para ele”
+```
+#### e o site mostrará o comando correspondente:
+> git checkout -b nome-do-branch
 ---
 
 ## 📘 Créditos
@@ -217,4 +258,6 @@ ministrada por *Anderson R. M. Gomes* 🧑‍🏫
 ---
 
 **🚀 Próximos passos:**  
-Na próxima aula, você aprenderá a conectar este repositório local ao GitHub com os comandos `git remote`, `git push` e `git pull`.
+Na próxima aula, você aprenderá a conectar este repositório local ao GitHub com os comandos `git remote`, `git push` e `git pull`.q
+
+
