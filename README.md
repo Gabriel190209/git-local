@@ -249,6 +249,37 @@ git push
 #### e o site mostrará o comando correspondente:
 > git checkout -b nome-do-branch
 ---
+## 👥 Como adicionar colaboradores ao repositório privado
+> Acesse seu repositório no GitHub.
+>
+> Abra as configurações do repositório.
+> 
+> Dentro do repositório desejado, clique na aba “Settings” (Configurações).
+>
+> Vá até a seção de acesso.
+> 
+> No menu lateral esquerdo, clique em “Collaborators” ou “Manage access” (Gerenciar acesso).
+>
+> Adicione um novo colaborador.
+> 
+> Clique no botão “Add people”.
+>
+> Procure o usuário.
+> 
+> Digite o nome de usuário ou e-mail da pessoa que você quer adicionar e selecione-a na lista que aparece.
+
+> Defina as permissões.
+> 
+> Escolha o tipo de acesso:
+* Read → Apenas visualiza o repositório.
+* Write → Pode enviar (push) alterações.
+* Admin → Controle total sobre o repositório.
+>
+> Envie o convite.
+>
+> Clique em “Add collaborator”.
+> O colaborador receberá um convite por e-mail ou no GitHub, e precisará aceitar o convite para começar a colaborar.
+---
 
 ## 📘 Créditos
 
